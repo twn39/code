@@ -33,7 +33,7 @@
 
 ### 工具
 
-- Docusaurus  文档
+- [Docusaurus  文档](https://github.com/facebook/Docusaurus)
 - Maxima  数学代数
 - Gimp  画图
 - Octave 数值计算
