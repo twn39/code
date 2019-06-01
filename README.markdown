@@ -4,6 +4,7 @@
 
 - [Symfony](http://symfony.com)
 - [Zend framework](https://framework.zend.com)
+- [Laravel](https://github.com/illuminate)
 - [Monolog](https://github.com/Seldaek/monolog)
 - [Guzzle](http://docs.guzzlephp.org/en/stable/)
 
