@@ -2,9 +2,7 @@
 
 ### PHP
 
-**组件与库**
-
-- symfony
+- ![symfony](http://symfony.com/)
 - zend framework
 - monolog
 - guzzle
