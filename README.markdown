@@ -2,7 +2,7 @@
 
 ### PHP
 
-- ![symfony](http://symfony.com/)
+- [symfony](http://symfony.com)
 - zend framework
 - monolog
 - guzzle
