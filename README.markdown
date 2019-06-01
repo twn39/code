@@ -2,18 +2,16 @@
 
 ### PHP
 
-- [symfony](http://symfony.com)
-- zend framework
-- monolog
-- guzzle
+- [Symfony](http://symfony.com)
+- [Zend framework](https://framework.zend.com)
+- [Monolog](https://github.com/Seldaek/monolog)
+- [Guzzle](http://docs.guzzlephp.org/en/stable/)
 
 
 ### Python
 
-**组件与库**
-
-- requests
-- numpy
+- [Requests](https://2.python-requests.org//en/master)
+- [Numpy](https://www.numpy.org)
 - scipy
 - matplotlib
 - pandas
