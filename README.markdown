@@ -5,8 +5,12 @@
 - [Symfony](http://symfony.com)
 - [Zend framework](https://framework.zend.com)
 - [Laravel](https://github.com/illuminate)
+- [Doctrine](https://www.doctrine-project.org/index.html)
 - [Monolog](https://github.com/Seldaek/monolog)
 - [Guzzle](http://docs.guzzlephp.org/en/stable/)
+- [iter](https://github.com/nikic/iter)
+- [codeception](https://codeception.com/quickstart)
+- [phpspec](http://www.phpspec.net/en/stable/)
 
 
 ### Python
