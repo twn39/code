@@ -12,35 +12,31 @@
 
 - [Requests](https://2.python-requests.org//en/master)
 - [Numpy](https://www.numpy.org)
-- scipy
-- matplotlib
-- pandas
-- flask
-- scikit-learn
+- Scipy
+- Matplotlib
+- Pandas
+- Flask
+- Scikit-learn
 
 
 ### Javascript
 
-**组件与库**
-
-- react
-- vue
-- angular
-- axios
+- React
+- Vue
+- Angular
+- Axios
 
 ### R
 
-**组件与库**
-
-- ggplot2
-- quantmod
+- Ggplot2
+- Quantmod
 
 ### 工具
 
-- docusaurus  文档
-- maxima  数学代数
-- gimp  画图
-- octave 数值计算
+- Docusaurus  文档
+- Maxima  数学代数
+- Gimp  画图
+- Octave 数值计算
 
 
 
