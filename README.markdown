@@ -48,3 +48,4 @@
 - [R]: R for Data Science  https://r4ds.had.co.nz/index.html
 - [Go]: the-way-to-go_ZH_CN  https://github.com/unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md
 - [Rust]: The Rust Programming Language https://doc.rust-lang.org/book/
+- [ML]: 100 Days of ML Code https://github.com/Avik-Jain/100-Days-of-ML-Code-Chinese-Version
