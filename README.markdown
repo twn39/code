@@ -65,3 +65,9 @@
 - [Rust]: The Rust Programming Language https://doc.rust-lang.org/book/
 - [Rust]: Rust 程序设计语言 简体中文版 https://kaisery.github.io/trpl-zh-cn/
 - [ML]: 100 Days of ML Code https://github.com/Avik-Jain/100-Days-of-ML-Code-Chinese-Version
+
+### 工具
+
+- [glances]: glance https://github.com/nicolargo/glances
+- [netdata]: netdata https://github.com/netdata/netdata
+- [seq]: seq https://datalust.co/seq
