@@ -31,6 +31,14 @@
 - Angular
 - Axios
 
+### React
+
+- [react-query](https://github.com/tannerlinsley/react-query)
+- [SWR](https://github.com/vercel/swr)
+- [zustand](https://github.com/pmndrs/zustand)
+- [jotai](https://github.com/pmndrs/jotai)
+- [react-hook-form](https://github.com/react-hook-form/react-hook-form)
+
 ### R
 
 - Ggplot2
