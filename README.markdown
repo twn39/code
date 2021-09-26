@@ -38,6 +38,7 @@
 - [zustand](https://github.com/pmndrs/zustand)
 - [jotai](https://github.com/pmndrs/jotai)
 - [react-hook-form](https://github.com/react-hook-form/react-hook-form)
+- [frame motion](https://github.com/framer/motion)
 
 ### R
 
