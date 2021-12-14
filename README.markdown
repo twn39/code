@@ -81,3 +81,8 @@
 - [glances]: glance https://github.com/nicolargo/glances
 - [netdata]: netdata https://github.com/netdata/netdata
 - [seq]: seq https://datalust.co/seq
+
+### 性能优化工具
+
+- [pyroscope]: https://github.com/pyroscope-io/pyroscope
+- [k6]: https://k6.io/
