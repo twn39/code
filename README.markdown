@@ -84,5 +84,5 @@
 
 ### 性能优化工具
 
-- [pyroscope]: https://github.com/pyroscope-io/pyroscope
-- [k6]: https://k6.io/
+- [pyroscope]: pyroscope https://github.com/pyroscope-io/pyroscope
+- [k6]: k6 https://k6.io/
