@@ -39,3 +39,4 @@
 2. http client 开启 http agent 的 keep alive
 3. 数据库链接开启连接池
 4. 通过 Clinic js 进行性能分析
+5. 通过 Pm2 进行应用程序管理和集群运行模式，有效利用多核处理器并且在应用崩溃时能自动重启
