@@ -3,7 +3,7 @@
 前端增加 HTTP 加速缓存，通过 http 协议的 Cache-Control，Expired 等缓存字段控制失效时间。
 
 软件：
- 1. [推荐] Varnish: https://varnish-cache.org/
+ 1. [推荐] Varnish: https://varnish-cache.org/   https://packagecloud.io/varnishcache
  2. Squid: http://www.squid-cache.org/
  
 ## 静态资源 CDN
