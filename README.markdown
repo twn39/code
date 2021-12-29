@@ -22,6 +22,8 @@
 - Pandas
 - Flask
 - Scikit-learn
+- Django
+- [Waitress](https://docs.pylonsproject.org/projects/waitress/en/latest/)
 
 
 ### Javascript
@@ -33,6 +35,9 @@
 - [Solid](https://www.solidjs.com/)
 - [Stitches](https://stitches.dev/)
 - [Emotion](https://emotion.sh/docs/introduction)
+- [Popmotion](https://popmotion.io/)
+- [tiptap] tiptap https://github.com/ueberdosis/tiptap
+- [prisma] primsa https://github.com/prisma/prisma
 
 ### React
 
@@ -42,6 +47,8 @@
 - [jotai](https://github.com/pmndrs/jotai)
 - [react-hook-form](https://github.com/react-hook-form/react-hook-form)
 - [frame motion](https://github.com/framer/motion)
+- [react-flow] react-flow https://github.com/wbkd/react-flow
+- [react-use] react-use https://github.com/streamich/react-use
 
 ### R
 
@@ -63,12 +70,10 @@
 
 ### Node
 
-- [tiptap] tiptap https://github.com/ueberdosis/tiptap
-- [prisma] primsa https://github.com/prisma/prisma
-- [zustand] zustand https://github.com/pmndrs/zustand
-- [react-flow] react-flow https://github.com/wbkd/react-flow
-- [react-use] react-use https://github.com/streamich/react-use
-- [clinic]clinic https://clinicjs.org/
+- [Fastify](https://www.fastify.io/)
+- [Pino](https://getpino.io/#/)
+- [Undici](https://github.com/nodejs/undici)
+- [Ajv](https://ajv.js.org/)
 
 
 ### 图书
