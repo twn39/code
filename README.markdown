@@ -30,6 +30,9 @@
 - Vue
 - Angular
 - Axios
+- [Solid](https://www.solidjs.com/)
+- [Stitches](https://stitches.dev/)
+- [Emotion](https://emotion.sh/docs/introduction)
 
 ### React
 
