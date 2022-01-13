@@ -63,4 +63,26 @@ A: 示例：
 
 当需要判断一个变量是否为 NaN 时，使用 `Number.isNaN()` 或 `isNaN()`。空数组和空对象（[],{}）始终是 truthy。
 
+### Q: for...in 和 for...of 的区别 ？
 
+A: for...in 主要用于遍历对象的属性，也可用于数组，数组遍历的是索引:
+
+```
+> var obj = {a:1, b:2, c:3};
+> for(let it in obj) {console.log(it)}
+> a 
+> b 
+> c
+```
+
+for...of 遍历数组或者可迭代对象，包含 Array，Set，String和生成器:
+
+```
+> let arr = [12, 4, 4,134, 65]
+> for(let it of arr) {console.log(it)}
+> 12 
+> 4 
+> 4 
+> 134 
+> 65
+```
