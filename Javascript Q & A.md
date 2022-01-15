@@ -86,3 +86,63 @@ for...of 遍历数组或者可迭代对象，包含 Array，Set，String和生�
 > 134 
 > 65
 ```
+
+### Q: 什么是作用域 ？
+
+A: 作用域就是定义的一套规则，这套规则用来管理引擎如何在当前作用域以及嵌套的子作用域中根据标识符名称进行变量查找。
+作用域共有两种主要的工作模型：**1. 词法作用域；2. 动态作用域**。
+
+词法作用域包含**函数作用域**和**块作用域**，通常由大括号（{}）标识出来。
+
+**函数作用域**
+
+```js
+const a = "hello";
+
+function foo() {
+    const a = "world";
+    console.log(a);
+}
+
+console.log(a);
+foo();
+```
+
+每个函数的定义都会有自己的作用域，因此在函数 foo 内可重复定义变量 a，并且处在自己的作用域当中。由于函数作用域的存在，
+可以实现对函数内部实现细节的隐藏，只暴露出对外提供的方法。
+
+**块作用域**
+
+```js
+const a = "hello";
+
+for(let i = 0; i <= 10; i++) {
+    const a = "world";
+    console.log(a);
+}
+
+console.log(a);
+```
+
+```js
+const a = "hello";
+if (a) {
+    const a = "world";
+    console.log(a);
+}
+console.log(a);
+```
+
+```js
+const a = "hello";
+try {
+    const a = "world";
+    console.log(a);
+    throw Error(a);
+} catch (err) {
+    const a = "!!!!";
+    console.log(a);
+}
+console.log(a);
+```
+
