@@ -38,6 +38,9 @@
 - [Popmotion](https://popmotion.io/)
 - [tiptap] tiptap https://github.com/ueberdosis/tiptap
 - [prisma] primsa https://github.com/prisma/prisma
+- [greensock] GreenSock https://greensock.com/docs/
+- [mojs] Mojs https://mojs.github.io/
+- [anime] Anime https://animejs.com/
 
 ### React
 
