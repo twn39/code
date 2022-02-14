@@ -160,3 +160,140 @@ A: `new` 关键字会进行如下的操作：
 2. 使用指定的参数调用构造函数 Foo，并将 `this` 绑定到新创建的对象。`new Foo` 等同于 `new Foo()`，也就是没有指定参数列表，Foo 不带任何参数调用的情况。
 3. 由构造函数返回的对象就是 `new` 表达式的结果。如果构造函数没有显式返回一个对象，则使用步骤1创建的对象。（一般情况下，构造函数不返回值，但是用户可以选择主动返回对象，来覆盖正常的对象创建步骤）
 
+参考链接：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new
+
+### Q: `this` 关键字在不同环境下的指向？
+A: *全局上下文*
+
+在全局执行环境中（在任何函数体外部）`this` 都指向全局对象。 示例：
+在浏览器中全局对象为 `window` 对象
+```shell
+> var a = 123
+undefined
+> a
+123
+> window.a
+123
+```
+在 `nodejs` 环境中全局对象为 `globalThis` 对象
+
+```shell
+> var a = 123
+undefined
+> a
+123
+> globalThis.a
+123
+```
+
+*函数上下文*
+
+在单独的函数定义的时候，`this` 指向全局对象，在严格模式下，`this` 会保持
+为 `undefined`，示例：
+
+```js
+var a = 1234;
+function f1() {
+    return this.a;  // this 指向 window 对象
+}
+f1() // 输出 1234
+```
+当函数作为对象里的方法被调用时，`this` 被设置为调用该函数的对象，示例：
+
+```js
+var obj = {
+  prop: 37,
+  f: function() {
+    return this.prop;
+  }
+};
+obj.f(); // 37
+```
+这样的行为不会受函数定义方式或位置的影响:
+```js
+let obj = {prop: 37};
+
+function independent() {
+  return this.prop;
+}
+
+obj.f = independent;
+obj.f(); // 37
+```
+
+函数在复杂对象中定义，`this` 指向最近的调用实例对象，示例：
+
+```js
+let obj = {
+    a: 1234,
+    foo: {
+        a: 4567,
+        zoo: function() {
+            return this.a;
+        }
+    }
+}
+
+obj.foo.zoo(); // `this` 指向最近的对象即：foo，输出：4567
+```
+
+通过 `.call`, `.apply` 等函数调用，`this` 指向调用者本身实例，示例：
+
+```js
+var obj = {
+    a: 12345,
+}
+var a = 'abcde'; // 全局变量
+function foo() {
+    return this.a;
+}
+foo(); // 指向全局，输出：abcde
+foo.call(obj); // this 被设置为 obj， 输出：12345
+foo.apply(obj); // this 被设置为 obj， 输出：12345
+```
+
+ES2015 引入了箭头函数，箭头函数不提供自身的 `this` 绑定（`this` 的值将保持为闭合词法上下文的值），在全局代码中，它将被设置为全局对象。
+
+```js
+var a = 'abcd'
+let obj = {
+    a: 1234,
+    foo: {
+        a: 4567,
+        zoo: () => {
+            return this.a;  // this 指向全局变量，输出：abcd
+        }
+    }
+}
+let f1 = (() => this); // this 指向全局变量
+f1() === window // // 输出： true
+
+let obj2 = {
+    a: '123abc',
+    bar: function() {
+        var x = (() => this);
+        return x;
+    }
+};
+let f2 = obj2.bar(); // 返回 x 函数
+f2() === obj2 // x 函数中的 this 指向 obj2
+f2().a; // 输出：123abc
+```
+
+*类上下文*
+
+在类中 `this` 指向类实例本身，示例：
+
+```js
+let a = 'abcde';
+class Foo {
+    a = 12345;
+    bar() {
+        return this.a;
+    }
+}
+let foo = new Foo();
+foo.bar() // bar 中的 this 指向 foo, 输出：12345
+```
+
+参考链接：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this
