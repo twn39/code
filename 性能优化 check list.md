@@ -16,8 +16,11 @@
 2. 请求优先接受 br 压缩，可选 gzip， 减少网络传输数据体积
 3. 使用 service worker 进行资源预加载，并进行本地缓存，对于个别 api 如多语言也可将其保存在本地
 4. 单页应用进行文件代码分割和 tree shaking, 移除注释和空格，减小体积
-5. 使用服务端渲染 SSR，优先采用 Nextjs，Nuxtjs，加快首屏渲染，优化 SEO
-6. 使用 chrome 的 Lighthouse 和 Profile 进行针对性优化
+5. 图片采用 webp 编码格式，以减少传输的体积
+6. CSS 采用 SASS，LESS 预处理器的时候需要注意避免 class 嵌套太多，过量的嵌套会增大 CSS 文件的体积
+7. 合理使用 session storage 或者 local storage 进行数据缓存
+8. 使用服务端渲染 SSR，优先采用 Nextjs，Nuxtjs，加快首屏渲染，优化 SEO
+9. 使用 chrome 的 Lighthouse 和 Profile 进行针对性优化
 
 ## 后端
 
