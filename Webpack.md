@@ -1,3 +1,8 @@
+### Assets server
+
+1. [http-server] https://github.com/http-party/http-server
+2. [serve] https://github.com/vercel/serve
+
 ### Webpack loader
 
 1. [postcss-loader] https://github.com/webpack-contrib/postcss-loader
