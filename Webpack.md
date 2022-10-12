@@ -1,3 +1,9 @@
+### Webpack 
+
+1. [laravel-mix] https://github.com/laravel-mix/laravel-mix
+2. [Encore] https://symfony.com/doc/current/frontend.html
+
+
 ### Assets server
 
 1. [http-server] https://github.com/http-party/http-server
@@ -28,3 +34,10 @@
 9. [image-minimizer-webpack-plugin] https://github.com/webpack-contrib/image-minimizer-webpack-plugin
 10. [dotenv-webpack] https://github.com/mrsteele/dotenv-webpack
 11. [nodemon-webpack-plugin] https://github.com/Izhaki/nodemon-webpack-plugin
+
+### Utility tools
+
+1. [eslint] https://github.com/eslint/eslint
+2. [browserslist] https://github.com/browserslist/browserslist
+
+
