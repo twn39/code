@@ -1,4 +1,14 @@
+### Webpack loader
 
+1. [postcss-loader] https://github.com/webpack-contrib/postcss-loader
+2. [esbuild-loader] https://github.com/privatenumber/esbuild-loader
+3. [swc-loader] https://github.com/swc-project/swc-loader
+4. [babel-loader] https://github.com/babel/babel-loader
+5. [vue-loader] https://github.com/vuejs/vue-loader
+6. [ts-loader] https://github.com/TypeStrong/ts-loader
+7. [stylus-loader] https://github.com/webpack-contrib/stylus-loader
+8. [sass-loader] https://github.com/webpack-contrib/sass-loader
+9. [svgr] https://react-svgr.com/docs/webpack/
 
 ### Webpack plugin
 
