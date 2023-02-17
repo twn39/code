@@ -34,6 +34,7 @@
 9. [image-minimizer-webpack-plugin] https://github.com/webpack-contrib/image-minimizer-webpack-plugin
 10. [dotenv-webpack] https://github.com/mrsteele/dotenv-webpack
 11. [nodemon-webpack-plugin] https://github.com/Izhaki/nodemon-webpack-plugin
+12. [webpackbar] https://github.com/unjs/webpackbar
 
 ### Utility tools
 
