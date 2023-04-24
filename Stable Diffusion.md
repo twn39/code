@@ -7,6 +7,9 @@
 ## Platform
 
 * Colab https://github.com/camenduru/stable-diffusion-webui-colab
+* https://lightning.ai/
+* https://huggingface.co/
+* https://replicate.com/
 
 ## Plugin
 
