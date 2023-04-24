@@ -1,6 +1,7 @@
 ## GUI
 
 * Stable diffusion webui  https://github.com/AUTOMATIC1111/stable-diffusion-webui
+* InvokeAI  https://github.com/invoke-ai/InvokeAI
 
 
 ## Platform
