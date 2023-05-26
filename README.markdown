@@ -69,6 +69,8 @@
 
 - [vmware] clarity https://github.com/vmware/clarity
 - [Adobe] spectrum  https://opensource.adobe.com/spectrum-css/
+- https://github.com/shadcn/ui
+- https://mantine.dev/
 
 
 ### Node
