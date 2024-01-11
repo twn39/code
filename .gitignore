@@ -46,3 +46,6 @@ Thumbs.db
 # Environment-specific configuration - NEVER commit to Git
 .env
 *.tgz
+.ipynb_checkpoints
+.RData
+.Rhistory

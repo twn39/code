@@ -33,3 +33,31 @@ generate login password:
 
 3. restart jupyter lab
 
+### Install R kernel
+
+1. Install R
+
+follow the install documents: https://cloud.r-project.org/
+
+2. Install R kernel
+
+enter R repl:
+
+    R
+
+install package:
+
+```
+install.packages('IRkernel')
+IRkernel::installspec()  # to register the kernel in the current R installation
+```
+
+install jupyter extension:
+
+    jupyter labextension install @techrah/text-shortcuts
+
+
+
+
+
+
