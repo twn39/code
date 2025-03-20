@@ -7,7 +7,7 @@
 - [Doctrine](https://www.doctrine-project.org/index.html)
 - [Monolog](https://github.com/Seldaek/monolog)
 - [Guzzle](http://docs.guzzlephp.org/en/stable/)
-- [codeception](https://codeception.com/quickstart)
+- [Codeception](https://codeception.com/quickstart)
 
 
 ### Python
@@ -23,23 +23,24 @@
 - [Statsmodels](https://www.statsmodels.org/stable/index.html)
 - [Django](https://www.djangoproject.com/)
 - [Waitress](https://docs.pylonsproject.org/projects/waitress/en/latest/)
+- [Pydantic](https://docs.pydantic.dev/latest/)
 
 
 ### Javascript
 
-- React
-- Vue
-- Angular
+- [React](https://react.dev/)
+- [Vue](https://vuejs.org/)
+- [Angular](https://angular.dev/)
 - [Solid](https://www.solidjs.com/)
 - [Emotion](https://emotion.sh/docs/introduction)
 - [Popmotion](https://popmotion.io/)
-- [tiptap] tiptap https://github.com/ueberdosis/tiptap
-- [prisma] primsa https://github.com/prisma/prisma
+- [Tiptap] tiptap https://github.com/ueberdosis/tiptap
+- [Prisma] primsa https://github.com/prisma/prisma
 - [Gsap] Gsap https://gsap.com/
 
 ### React
 
-- [react-query](https://github.com/tannerlinsley/react-query)
+- [Tanstack](https://tanstack.com/)
 - [SWR](https://github.com/vercel/swr)
 - [Zustand](https://github.com/pmndrs/zustand)
 - [Jotai](https://github.com/pmndrs/jotai)
@@ -47,6 +48,7 @@
 - [Motion](https://motion.dev/)
 - [React-spring](https://www.react-spring.dev/)
 - [React-flow] react-flow https://github.com/wbkd/react-flow
+- [Mobx](https://mobx.js.org)
 
 
 ### R
