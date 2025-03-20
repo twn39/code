@@ -12,6 +12,7 @@
 ## Package Manager
 
 1. Rye
+2. Uv
 
 ## Http 
 
