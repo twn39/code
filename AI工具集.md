@@ -30,3 +30,9 @@
 - https://github.com/hiyouga/LLaMA-Factory
 
 
+### 开发
+
+- https://jina.ai/
+- https://python.langchain.com/docs/introduction/
+- https://docs.llamaindex.ai/en/stable/
+- https://microsoft.github.io/autogen/stable/
