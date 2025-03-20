@@ -3,26 +3,26 @@
 ### PHP
 
 - [Symfony](http://symfony.com)
-- [Zend framework](https://framework.zend.com)
 - [Laravel](https://github.com/illuminate)
 - [Doctrine](https://www.doctrine-project.org/index.html)
 - [Monolog](https://github.com/Seldaek/monolog)
 - [Guzzle](http://docs.guzzlephp.org/en/stable/)
-- [iter](https://github.com/nikic/iter)
 - [codeception](https://codeception.com/quickstart)
 - [phpspec](http://www.phpspec.net/en/stable/)
 
 
 ### Python
 
-- [Requests](https://2.python-requests.org//en/master)
+- [Httpx](https://www.python-httpx.org/)
 - [Numpy](https://www.numpy.org)
-- Scipy
-- Matplotlib
-- Pandas
-- Flask
-- Scikit-learn
-- Django
+- [Scipy](https://scipy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Fastapi](https://fastapi.tiangolo.com/)
+- [SQLModel](https://sqlmodel.tiangolo.com/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
+- [Statsmodels](https://www.statsmodels.org/stable/index.html)
+- [Django](https://www.djangoproject.com/)
 - [Waitress](https://docs.pylonsproject.org/projects/waitress/en/latest/)
 
 
@@ -31,27 +31,24 @@
 - React
 - Vue
 - Angular
-- Axios
 - [Solid](https://www.solidjs.com/)
-- [Stitches](https://stitches.dev/)
 - [Emotion](https://emotion.sh/docs/introduction)
 - [Popmotion](https://popmotion.io/)
 - [tiptap] tiptap https://github.com/ueberdosis/tiptap
 - [prisma] primsa https://github.com/prisma/prisma
-- [greensock] GreenSock https://greensock.com/docs/
-- [mojs] Mojs https://mojs.github.io/
-- [anime] Anime https://animejs.com/
+- [Gsap] Gsap https://gsap.com/
 
 ### React
 
 - [react-query](https://github.com/tannerlinsley/react-query)
 - [SWR](https://github.com/vercel/swr)
-- [zustand](https://github.com/pmndrs/zustand)
-- [jotai](https://github.com/pmndrs/jotai)
-- [react-hook-form](https://github.com/react-hook-form/react-hook-form)
-- [frame motion](https://github.com/framer/motion)
-- [react-flow] react-flow https://github.com/wbkd/react-flow
-- [react-use] react-use https://github.com/streamich/react-use
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Jotai](https://github.com/pmndrs/jotai)
+- [React-hook-form](https://github.com/react-hook-form/react-hook-form)
+- [Motion](https://motion.dev/)
+- [React-spring](https://www.react-spring.dev/)
+- [React-flow] react-flow https://github.com/wbkd/react-flow
+
 
 ### R
 
@@ -67,8 +64,6 @@
 
 ### Design System
 
-- [vmware] clarity https://github.com/vmware/clarity
-- [Adobe] spectrum  https://opensource.adobe.com/spectrum-css/
 - https://github.com/shadcn/ui
 - https://mantine.dev/
 
