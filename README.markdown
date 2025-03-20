@@ -34,9 +34,9 @@
 - [Solid](https://www.solidjs.com/)
 - [Emotion](https://emotion.sh/docs/introduction)
 - [Popmotion](https://popmotion.io/)
-- [Tiptap] tiptap https://github.com/ueberdosis/tiptap
-- [Prisma] primsa https://github.com/prisma/prisma
-- [Gsap] Gsap https://gsap.com/
+- [Tiptap](https://github.com/ueberdosis/tiptap)
+- [Prisma](https://github.com/prisma/prisma)
+- [Gsap](https://gsap.com/)
 
 ### React
 
@@ -47,7 +47,7 @@
 - [React-hook-form](https://github.com/react-hook-form/react-hook-form)
 - [Motion](https://motion.dev/)
 - [React-spring](https://www.react-spring.dev/)
-- [React-flow] react-flow https://github.com/wbkd/react-flow
+- [React-flow](https://github.com/wbkd/react-flow)
 - [Mobx](https://mobx.js.org)
 
 
