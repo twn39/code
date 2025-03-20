@@ -8,7 +8,6 @@
 - [Monolog](https://github.com/Seldaek/monolog)
 - [Guzzle](http://docs.guzzlephp.org/en/stable/)
 - [codeception](https://codeception.com/quickstart)
-- [phpspec](http://www.phpspec.net/en/stable/)
 
 
 ### Python
