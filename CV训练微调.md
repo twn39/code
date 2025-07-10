@@ -1,6 +1,7 @@
 ## 预训练
 
 - ![lightly-train](https://www.lightly.ai/lightly-train)
+- ![lightning](https://lightning.ai/)
 
 ## 微调
 
