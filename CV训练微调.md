@@ -9,4 +9,4 @@
 - ![super-gradients](https://github.com/Deci-AI/super-gradients)   Yolo-NAS 系列
 - ![transformers trainer](https://huggingface.co/docs/transformers/zh/main_classes/trainer) 
 - ![timm](https://huggingface.co/docs/timm/training_script)
-- ![efficientvit](https://github.com/mit-han-lab/efficientvit)
+- ![efficientvit](https://github.com/mit-han-lab/efficientvit)  cls, sam, seg
