@@ -10,3 +10,7 @@
 - ![transformers trainer](https://huggingface.co/docs/transformers/zh/main_classes/trainer) 
 - ![timm](https://huggingface.co/docs/timm/training_script)
 - ![efficientvit](https://github.com/mit-han-lab/efficientvit)  cls, sam, seg
+
+## 文本
+
+- ![fastai](https://docs.fast.ai/)
