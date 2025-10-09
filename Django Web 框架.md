@@ -15,7 +15,7 @@
 ### 部署
 
 - whitenoise serve 静态文件
-- 使用 waitress 替代 gunicorn serve django， waitress 支持 linux，mac 和 windows
+- Windows 下使用 waitress 替代 gunicorn serve django， waitress 支持 linux，mac 和 windows
 - 使用 node PM2 管理进程，开启多个进程，并在 nginx 配置 负载均衡，合理利用多核 CPU 资源
 - 生产环境需要限流，优先使用 nginx 在网关入口处限流
 - 开启头部安全性设置
