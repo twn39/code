@@ -9,7 +9,9 @@
 - [whitenoise] http://whitenoise.evans.io/en/latest/
 - [django-treebeard] https://django-treebeard.readthedocs.io/en/latest/
 
-
+### CMS
+- [wagtail] https://wagtail.org/
+  
 ### 部署
 
 - whitenoise serve 静态文件
