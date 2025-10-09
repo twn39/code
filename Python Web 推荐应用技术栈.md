@@ -4,15 +4,18 @@
 2. Flask
 3. Fastapi
 
+## CMS
+
+1. [wagtail] https://wagtail.org/
+
 ## ORM
 
-1. Sqlmodel
-2. Tortoise ORM
+1. [Sqlmodel] https://sqlmodel.tiangolo.com/
+2. [Tortoise ORM] https://tortoise.github.io/
 
 ## Package Manager
 
-1. Rye
-2. Uv
+1. Uv
 
 ## Http 
 
