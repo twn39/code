@@ -14,3 +14,7 @@
 ## LLM Chat
 
 - [kelivo](https://github.com/Chevey339/kelivo)
+
+## Ebook
+
+- [readest](https://github.com/readest/readest)
